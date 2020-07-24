@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mul_dll_by_declspec_Project", "Mul_dll_by_declspec_Project\Mul_dll_by_declspec_Project.vcxproj", "{E3DB242D-B614-48F9-9D6D-7C2F896FBD45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest_Mul_dll_by_dec", "UnitTest_Mul_dll_by_dec\UnitTest_Mul_dll_by_dec.vcxproj", "{35B25817-EB09-443F-9BA9-406761BBAF2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Use_Mul_dll", "Use_Mul_dll\Use_Mul_dll.vcxproj", "{DF29B2D7-F092-43FC-AE55-89C9A858BC37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3DB242D-B614-48F9-9D6D-7C2F896FBD45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3DB242D-B614-48F9-9D6D-7C2F896FBD45}.Debug|Win32.Build.0 = Debug|Win32
+		{E3DB242D-B614-48F9-9D6D-7C2F896FBD45}.Release|Win32.ActiveCfg = Release|Win32
+		{E3DB242D-B614-48F9-9D6D-7C2F896FBD45}.Release|Win32.Build.0 = Release|Win32
+		{35B25817-EB09-443F-9BA9-406761BBAF2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35B25817-EB09-443F-9BA9-406761BBAF2C}.Debug|Win32.Build.0 = Debug|Win32
+		{35B25817-EB09-443F-9BA9-406761BBAF2C}.Release|Win32.ActiveCfg = Release|Win32
+		{35B25817-EB09-443F-9BA9-406761BBAF2C}.Release|Win32.Build.0 = Release|Win32
+		{DF29B2D7-F092-43FC-AE55-89C9A858BC37}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF29B2D7-F092-43FC-AE55-89C9A858BC37}.Debug|Win32.Build.0 = Debug|Win32
+		{DF29B2D7-F092-43FC-AE55-89C9A858BC37}.Release|Win32.ActiveCfg = Release|Win32
+		{DF29B2D7-F092-43FC-AE55-89C9A858BC37}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
