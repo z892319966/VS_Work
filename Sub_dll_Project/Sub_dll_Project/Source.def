@@ -1,0 +1,3 @@
+LIBRARY "Sub_dll_Project"
+EXPORTS  
+Sub @1
