@@ -1,9 +1,22 @@
 #include "Div.h"
 
 
+double Div(int a, int b, bool *flag)
 
-double Div(double a, double b)
 {
+	double c;
+	*flag = 1;
+	if (b == 0)
+	{
+		*flag = 0;
+		return 0;
+	}
+	else
+	{
+		c = (double)a / (double)b;
+		return c;
+
+	}
 	/*int flag=1;
 	if (b == 0)
 	{
@@ -11,8 +24,11 @@ double Div(double a, double b)
 	}
 	
 	else */
+	//double c;
 
-	return a / b;
+	//c = (double)a / (double)b;
+
+	//return c;
 
 
 }
