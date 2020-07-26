@@ -69,9 +69,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Div.h" />
+    <ClInclude Include="gongneng.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Div.cpp" />
+    <ClCompile Include="gongneng.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

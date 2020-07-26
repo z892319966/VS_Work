@@ -9,10 +9,10 @@ namespace UnitTest_Div
 	TEST_CLASS(UnitTest1)
 	{
 	public:
-		
-		TEST_METHOD(TestMethod1)
+		bool flag;
+		TEST_METHOD(Test1)
 		{
-			Assert::AreEqual(1.0, Div(2, 2));
+			Assert::AreEqual(1.0, Div(2, 2,&flag));
 	// TODO:  在此输入测试代码
 		}
 
