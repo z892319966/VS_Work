@@ -1,42 +1,21 @@
 #include<stdio.h>
 #include"Add_lib.h"
 
-int Add(int a,int b)
+//double Add(double a, double b)
+//long int Add(int a, int b)
+//int Add(int a, int b)
+double Add(int a, int b)
+
 {
-	//int ret;
-	//printf("请输入整型数据A :");
-	//ret = scanf_s("%d", &a);
-	//if (ret == 0)    //遇到非法字符的输入
-	//{
-	//	printf("Input data type error!\n");
-	//	fflush(stdin);//清除输入缓冲区的错误数据
-	//}
-	//else if (ret == EOF)//scanf调用失败
-	//{
-	//	printf("Input failure occurs!\n");
-	//}
-	//else
-	//{
-	//	printf("a=%d\n", a);
-	//}
+	double c;
+	/*double c,d,e;
+	d = (double)a;
+	e = (double)a;*/
+	/*long int c = (long int)a + b;*/
+	c = double(a) + double( b);
 
-
-	//printf("Input b:");
-	//ret = scanf_s("%d", &b);
-	//if (ret == 0)
-	//{
-	//	printf("Input data type error!\n");
-	//	fflush(stdin);
-	//}
-	//else if (ret == EOF)
-	//{
-	//	printf("Input failure occurs!\n");
-	//}
-	//else
-	//{
-	//	printf("b=%d\n", b);
-	//}
-	return a+b;
+	return c;
+	
 
 }
 
