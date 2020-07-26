@@ -1,6 +1,11 @@
 #include "Mul_dll.h"
 
-DLL_EXPORT_IMPORT int Mul(int a, int b)
+DLL_EXPORT_IMPORT double Mul(int a, int b)
 { 
-	return a * b ;
+
+	double  c;
+	//int c;
+	//c = a * b;
+	c = a*1.0 * b*1.0;
+	return c;
 }
